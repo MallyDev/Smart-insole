@@ -9,6 +9,7 @@ In this way the system will be ready to collect the data about the user.
 The analysis is both static and dynamic:
 - through the static analysis the insoles check if the weight distributed on the calcaneus is equal to the one distributed on the top of the first, fourth and fifth metatarsal;
 - through the dynamic analysis the insoles check if the user makes all the correct steps to walk and check the rotation of the ankle.
+
 ![alt text](https://github.com/MallyDev/Smart-insole/blob/master/walk.jpg)
 
 ### Hardware
@@ -26,9 +27,11 @@ The four FlexiForce sensors are used to check the weight distribution. Those hav
 
 
 The sensors are connected with the following configuration:
+
 ![alt text](https://github.com/MallyDev/Smart-insole/blob/master/force.png)
 
 The accelerometer is used to check the rotation of the ankle. It is connected with the following configuration:
+
 ![alt text](https://github.com/MallyDev/Smart-insole/blob/master/acc.png)
 
 The RGB led is used to give a visual feedback about the analysis:
@@ -40,7 +43,10 @@ The RGB led is used to give a visual feedback about the analysis:
 A vibrating motor is also used to give physical feedback to the user when he/she doesn’t walk correctly.
 
 The total system appears like this:
+
 ![alt text](https://github.com/MallyDev/Smart-insole/blob/master/total.png)
+
+
 
 ### Software
 The code is in C language and follows the interrupt driven model.

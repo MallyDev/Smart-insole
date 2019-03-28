@@ -1,4 +1,6 @@
 # Smart insole
+### Embedded system project by Maria Laura Bisogno, Antonio Nappi, Vittorio Senatore
+
 The aim of this project was to realise a smart insole to check the weight distribution and the walk of the person who wears it. This system could be used:
 - to collect the data about the patient and analyse the progress during physical therapies;
 - as diagnostic tool to analyse daily the patient’s condition;
